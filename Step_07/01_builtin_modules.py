@@ -1,4 +1,4 @@
-import math      
+import math      #使用math模組
 import datetime 
 
 print("--- math 數學模組 ---")

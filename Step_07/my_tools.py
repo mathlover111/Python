@@ -1,5 +1,5 @@
 def say_hello(name):
-    return f"嗨，{name}！"
+    return f"hi，{name}！"
 
 def calculate_bmi(height_cm, weight_kg):
     height_m = height_cm / 100

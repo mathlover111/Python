@@ -10,5 +10,5 @@ biggest_number = find_max(42, 99)
 
 double_size = biggest_number * 2
 
-print(f"找出來的最大值是：{biggest_number}")
-print(f"最大值的兩倍是：{double_size}")
+print(f"biggest：{biggest_number}")
+print(f"biggest*2：{double_size}")

@@ -106,7 +106,13 @@
 * **`05_loop_list.py`**
   * **功能**：使用迴圈逐一取出名字清單，並印出個人化的問候語。
   * **重點**：掌握 `for name in names:` 遍歷列表的簡潔語法。
-
+  * **答案**:RRRR
+Hello，AAA！
+Good luck!
+Hello，BBB！
+Good luck!
+Hello，CCC！
+Good luck!
 * **`06_tuple_basics.py`**
   * **功能**：建立儲存螢幕解析度的唯讀設定值，並讀取寬度。
   * **重點**：認識元組 `( )` 的不可變（Immutable）特性，適用於保護不希望被修改的資料。

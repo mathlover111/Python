@@ -1,4 +1,5 @@
-names = ["妮歌", "華華", "哈基米"]
+names = ["AAA", "BBB", "CCC"]
 
 for name in names:
-        print(f"哈囉，{name}！")
+        print(f"Hello，{name}！")
+        print(f"Good luck!")

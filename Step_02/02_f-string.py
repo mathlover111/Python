@@ -1,4 +1,4 @@
-name = input("名字: ")
-age = input("年齡: ")
+name = input("name: ")
+age = input("age: ")
 
 print(f"我是 {name}，今年 {age} 歲")

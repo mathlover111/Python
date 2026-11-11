@@ -1,6 +1,6 @@
-word = input("輸入單字: ")
+word = input("word: ")
 
-times = int(input("輸入重複次數: "))
+times = int(input("times: "))
 
 result = word * times
 print(result)

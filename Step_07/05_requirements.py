@@ -2,7 +2,6 @@ import os
 
 print("=== Python 專案套件管理示範 ===")
 
-# 教導如何產生與安裝 requirements.txt
 instructions = """
 【如何導出目前專案安裝的套件清單？】
 請在終端機輸入：
@@ -19,4 +18,4 @@ print(instructions)
 if os.path.exists("requirements.txt"):
     print("找到 requirements.txt 檔案！")
 else:
-    print("目前尚未建立 requirements.txt，可以在終端機產生一個喔！")
+    print("目前尚未建立 requirements.txt")

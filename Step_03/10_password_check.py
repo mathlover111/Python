@@ -13,4 +13,4 @@ for i in range(1, max_attempts + 1):
         if remaining > 0:
             print(f"密碼錯誤！還剩 {remaining} 次機會。")
         else:
-            print("嘗試次數過多，帳號被鎖定！")
+            print("嘗試次數過多！")

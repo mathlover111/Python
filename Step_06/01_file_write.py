@@ -10,4 +10,4 @@ file.write("114514")
 # Close the file and release system resources
 file.close()
 
-print("寫入成功")
+print("success write")

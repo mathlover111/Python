@@ -1,13 +1,13 @@
-# 使用 open() 開啟檔案
-# 檔名 "note.txt"
+# Open a file using open()
+# file name "note.txt"
 # "w" 代表 寫入模式
 file = open("note.txt", "w", encoding="utf-8")
 
-# 文字寫入檔案
+# Writing text to a file
 file.write("114514")
 
 
-# 關閉檔案，釋放系統資源
+# Close the file and release system resources
 file.close()
 
 print("寫入成功")

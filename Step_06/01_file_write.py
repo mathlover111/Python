@@ -1,6 +1,6 @@
 # Open a file using open()
 # file name "note.txt"
-# "w" 代表 寫入模式
+# "w" stands for write mode.
 file = open("note.txt", "w", encoding="utf-8")
 
 # Writing text to a file

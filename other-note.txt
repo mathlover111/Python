@@ -20,3 +20,12 @@ String
 (var)           字典參數
 m.n             m為總長度
                 n為保留小數點後n位
+
+
+串列函式:
+函式          參數
+len(list)
+max(list)    list串列
+min(list)
+list(seq)    seq-tuple型態
+list.append(obj)  

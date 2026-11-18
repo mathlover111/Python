@@ -28,4 +28,37 @@ len(list)
 max(list)    list串列
 min(list)
 list(seq)    seq-tuple型態
-list.append(obj)  
+list.append(obj)  obj －對象
+list.count(obj) obj －對象 
+list. extend (seq) 可為list､tuple､集合、字典
+list index (x[, start, end])
+list.insert (index,obj )
+list. pop( ［index = －1 ])
+list. remove (obj)
+list.sort (key = None ，reverse = False)
+list. clear()
+list.copy()
+List.reverse（）
+
+常用元組函數
+len (tuple)
+max(tuple)
+min (tuple)
+tuple(seq)
+Sum(tuple)
+
+數值函數
+int(x) bin(x) hex(x) oct(x) float(x) abs(x) divmod (a,b)  pow (x,y ［,z ）） round (x[,y])
+chr(x) ord(x) str(x) max( 參數列) min(參數列) len(x) sum(list)
+
+常用內建模組
+os模組一建立檔案、檔案刪除、異動檔名
+			函數         參數   用途
+os. getcwd()
+os. rename( src, dst)
+os. listdir(path)
+os. walk(path, topdown)
+os. mkdir(path)
+os. rmdir( path)
+os. remove( path)
+

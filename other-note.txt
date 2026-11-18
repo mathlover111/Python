@@ -62,3 +62,11 @@ os. mkdir(path)
 os. rmdir( path)
 os. remove( path)
 
+sys模組
+
+sys. argv()
+sys. modules. keys()
+sys. modules. values()
+sys. modules()
+8-9
+

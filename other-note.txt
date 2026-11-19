@@ -30,10 +30,10 @@ min(list)
 list(seq)    seq-tuple型態
 list.append(obj)  obj －對象
 list.count(obj) obj －對象 
-list. extend (seq) 可為list､tuple､集合、字典
+list.extend (seq) 可為list､tuple､集合、字典
 list index (x[, start, end])
 list.insert (index,obj )
-list. pop( ［index = －1 ])
+list. pop(［index = －1 ])
 list. remove (obj)
 list.sort (key = None ，reverse = False)
 list. clear()
@@ -53,20 +53,41 @@ chr(x) ord(x) str(x) max( 參數列) min(參數列) len(x) sum(list)
 
 常用內建模組
 os模組一建立檔案、檔案刪除、異動檔名
-			函數         參數   用途
-os. getcwd()
-os. rename( src, dst)
-os. listdir(path)
-os. walk(path, topdown)
-os. mkdir(path)
-os. rmdir( path)
-os. remove( path)
+			函數         參數   						用途
+os.getcwd()
+os.rename(src,dst)		src-要修改的檔名
+						dst-修改後的檔名
+os.listdir(path)		path-指定路徑
+os.walk(path,topdown)
+
+os.mkdir(path)			path-指定路徑				建立目錄
+os.rmdir(path)			path-指定路徑				刪除目錄
+os.remove(path)			path-指定要移除的文件路徑		刪除指定路徑的文件
 
 sys模組
+函數						用途
+sys. argv()					可取得外部傳入的參數
+sys. modules. keys()		返回已匯入的模組名
+sys. modules. values()		返回已匯入的模組引用路徑
+sys. modules()				紀錄/取得所有匯入的模組
 
-sys. argv()
-sys. modules. keys()
-sys. modules. values()
-sys. modules()
-8-9
+math模組
+函數				參數			用途
+math.fabs(x)						x的絕對值
+math.fmod(x,y)						x/y的餘數
+math.pow(x,y)		x,y皆為數值		x的y次方，同x**y
+math.factorial(x)					x的階乘
+math.isnan(x)						x若不是數字，則為true,反之為false
+math.gcd(x,y)						x和y的最大公約數
+
+random模組8-12
+函數		 			參數			用途
+random.random()
+random.randint(a,b)
+random.uniform(a,b)
+random.randrange([start],stop[,step])
+random.choice(seq)
+random.sample(population,k)
+random.shuffle(lis)
+
 

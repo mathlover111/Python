@@ -180,7 +180,9 @@ hello！???，have fun today！
   * **答案** :函式內部】 5
 【函式內部】 3
 【函式外部】 5
-
+* **`06_pow.py`**
+  * **功能**:
+  * **重點**: 
 ## 📁 Step 06：檔案處理與例外捕捉（File I/O & Exception Handling）
 本階段學習如何使用 Python 進行檔案讀寫操作（.txt），並結合例外捕捉機制（try-except）與 `with` 語法，建立穩定且具備資料持久化能力（Data Persistence）的程式庫。
 

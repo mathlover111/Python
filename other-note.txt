@@ -90,4 +90,24 @@ random.choice(seq)
 random.sample(population,k)
 random.shuffle(lis)
 
+元組struct_time
+索引index
+0      tm_year
+1.      tm_ mon
+2.       tm_mday
+3.      tm_hour
+4.       tm_min
+5.      tm_sec
+6。     tm_wday
+7.      tm_ yday
+8.      tm ＿ isdst
+
+time模組
+time. strftime(format[,t])
+time.gmtime([sec])
+time.strptime(str,format)
+time.asctime([t])
+
+
+
 

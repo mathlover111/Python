@@ -1,5 +1,5 @@
 product = 1
-n=int(input('n ='))
+n=int(input('n = '))
 for i in range(0,n+1):
     for j in range(i,0,-1):
         product *= j

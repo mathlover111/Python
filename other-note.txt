@@ -81,32 +81,43 @@ math.isnan(x)						x若不是數字，則為true,反之為false
 math.gcd(x,y)						x和y的最大公約數
 
 random模組8-12
-函數		 			參數			用途
-random.random()
-random.randint(a,b)
+函數		 								參數			用途
+random.random()								
+random.randint(a,b)							a,b皆為數值
 random.uniform(a,b)
-random.randrange([start],stop[,step])
-random.choice(seq)
-random.sample(population,k)
-random.shuffle(lis)
+random.randrange([start],stop[,step])		start-起始
+											stop-終點
+											step-遞增間隔
+random.choice(seq)							seq-代表序列						
+random.sample(population,k)					population-代表序列
+											k-長度
+random.shuffle(lis)							lis-代表序列
 
 元組struct_time
-索引index
-0      tm_year
-1.      tm_ mon
-2.       tm_mday
-3.      tm_hour
-4.       tm_min
-5.      tm_sec
-6。     tm_wday
-7.      tm_ yday
-8.      tm ＿ isdst
+索引index 	參數(Attribute)
+0      		tm_year
+1      		tm_ mon
+2       	tm_mday
+3      		tm_hour
+4       	tm_min
+5      		tm_sec
+6     		tm_wday
+7      		tm_ yday
+8      		tm ＿ isdst
 
 time模組
-time. strftime(format[,t])
-time.gmtime([sec])
-time.strptime(str,format)
-time.asctime([t])
+函數								參數
+time. strftime(format[,t])			format-格式化定義
+									t-struct_time型別或gmtime()或localtime()返回值
+time.gmtime([sec])					sec-為struct_time型別
+
+time.strptime(str,format)			str-字串時間			
+									format-格式化定義
+time.asctime([t])					t-struct_time型別或gmtime()或localtime()返回值
+
+
+
+
 
 
 

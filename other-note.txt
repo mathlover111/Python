@@ -81,17 +81,17 @@ math.isnan(x)						x若不是數字，則為true,反之為false
 math.gcd(x,y)						x和y的最大公約數
 
 random模組8-12
-函數		 								參數			用途
+函數		 								參數					用途
 random.random()								
-random.randint(a,b)							a,b皆為數值
-random.uniform(a,b)
+random.randint(a,b)							a,b皆為數值			隨機產生範圍內的整數
+random.uniform(a,b)												隨機產生範圍內的福點數
 random.randrange([start],stop[,step])		start-起始
 											stop-終點
 											step-遞增間隔
-random.choice(seq)							seq-代表序列						
+random.choice(seq)							seq-代表序列			從序列中取得一個隨機元素						
 random.sample(population,k)					population-代表序列
 											k-長度
-random.shuffle(lis)							lis-代表序列
+random.shuffle(lis)							lis-代表序列			序列中隨機排序
 
 元組struct_time
 索引index 	參數(Attribute)
@@ -116,8 +116,17 @@ time.strptime(str,format)			str-字串時間
 time.asctime([t])					t-struct_time型別或gmtime()或localtime()返回值
 
 
-
-
+calendar模組
+函數										參數		
+calender.calemder(year,w=2,l=1,c=6)			w-每日寬度間隔
+											l-每星期行數
+											c-3個月間隔一行，其間隔距離每行長度為21*w+18+2*c
+calender.month(year,month,w=2,l=1)			w-每日寬度間隔
+											l-每日星期數
+calender.firstweekday()
+calender.setfirstweekday
+calender.isleap								year-年
+calender.leapdays(y1.y2)					y1,y2-年
 
 
 

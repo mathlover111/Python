@@ -14,6 +14,10 @@ Entry							Entry									Entry
 	|
 	Exit
 
+物件導向語言特性
+封裝性(Encapsulation)、繼承性(Inheritance)、多形性(Polymorphism)	
+
+
 String
 格式:
 符號              用途
@@ -67,6 +71,26 @@ Sum(tuple)
 int(x) bin(x) hex(x) oct(x) float(x) abs(x) divmod (a,b)  pow (x,y ［,z ）） round (x[,y])
 chr(x) ord(x) str(x) max( 參數列) min(參數列) len(x) sum(list)
 
+
+
+與字串有關的函數
+方法								參數							
+starswitch(suffix[,start,end])		suffix-可為一個字符或一個元素
+									start-開始位置
+									end-結束位置
+endswitch(suffix[,start,end])
+
+
+
+
+
+
+
+
+
+
+
+
 常用內建模組
 os模組一建立檔案、檔案刪除、異動檔名
 			函數         參數   						用途
@@ -118,12 +142,12 @@ random.shuffle(lis)							lis-代表序列			序列中隨機排序
 4       	tm_min
 5      		tm_sec
 6     		tm_wday
-7      		tm_ yday
-8      		tm ＿ isdst
+7      		tm_yday
+8      		tm_isdst
 
 time模組
 函數								參數
-time. strftime(format[,t])			format-格式化定義
+time.strftime(format[,t])			format-格式化定義
 									t-struct_time型別或gmtime()或localtime()返回值
 time.gmtime([sec])					sec-為struct_time型別
 
